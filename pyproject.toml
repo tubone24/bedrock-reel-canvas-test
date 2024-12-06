@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bedrock-reel-canvas-test"
+version = "0.1.0"
+description = ""
+authors = ["tubone <tubo.yyyuuu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.35.76"
+streamlit = "^1.40.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
