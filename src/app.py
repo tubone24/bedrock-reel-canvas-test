@@ -9,6 +9,7 @@ S3_DESTINATION_BUCKET = "FIXME"
 REGION = "us-east-1"
 REEL_MODEL_ID = "amazon.nova-reel-v1:0"
 CANVAS_MODEL_ID = "amazon.nova-canvas-v1:0"
+PRO_MODEL_ID = "amazon.nova-pro-v1:0"
 SLEEP_TIME = 30
 
 bedrock_runtime = boto3.client("bedrock-runtime", REGION)
@@ -251,7 +252,7 @@ def translate_and_enhance_prompt(prompt):
 
     try:
         response = client.converse(
-            modelId="us.amazon.nova-pro-v1:0",
+            modelId=PRO_MODEL_ID,
             messages=body,
         )
         translated_prompt = response['output']['message']['content'][0]['text']
