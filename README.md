@@ -1,5 +1,8 @@
 # bedrock-reel-canvas-test
 
+登壇資料↓
+https://speakerdeck.com/tubone24/amazonnozui-xin-moderuwoshi-tutemiyou
+
 2024年のre:Inventで発表されたAmazon NovaシリーズのCanvasとReelを使ったデモアプリ
 
 空港のトランジットで寝落ちしないように無理やりコードを書いていたときに作ったやつなので全体的にコードが汚いよ。
